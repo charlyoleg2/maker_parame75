@@ -1,0 +1,41 @@
+{
+	"name": "maker_parame75",
+	"version": "0.0.1",
+	"description": "parameters and stl of parame75",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/charlyoleg2/maker_parame75.git"
+	},
+	"homepage": "https://github.com/charlyoleg2/maker_parame75#readme",
+	"author": "charlyoleg2",
+	"license": "ISC",
+	"keywords": [
+		"desi75",
+		"parametrix"
+	],
+	"type": "module",
+	"main": "index.js",
+	"scripts": {
+		"desi75-uis": "desi75-uis",
+		"desi75-cli": "desi75-cli",
+		"desi75-cli-help": "desi75-cli --help",
+		"pastePusher_list-outopt": "desi75-cli --design desi75/pastePusher list-outopt",
+		"pastePusher_json_param": "desi75-cli --design=desi75/pastePusher write json_param",
+		"pastePusher_openscad_long": "desi75-cli --design=desi75/pastePusher --param=refs/pastePusher/px_pastePusher_v01.json --outDir=refs/pastePusher --outFileName=pastePusher_v01.scad write scad_3d_openscad",
+		"pastePusher_openscad": "desi75-cli -d=desi75/pastePusher -p=refs/pastePusher/px_pastePusher_v01.json -o=refs/pastePusher --outFileName=pastePusher_v01.scad write scad_3d_openscad",
+		"pastePusher_view": "openscad refs/pastePusher/pastePusher_v01.scad",
+		"pastePusher_stl": "openscad -o refs/pastePusher/pastePusher_v01.stl refs/pastePusher/pastePusher_v01.scad",
+		"make_parts": "node make_parts.js",
+		"git_clean": "git clean -f",
+		"install_jscad": "npm install --prefix=refs @jscad/cli",
+		"check_jscad": "npx --prefix=refs jscad -v",
+		"clean_jscad": "rimraf refs/node_modules refs/package-lock.json refs/package.json",
+		"ls_refs": "ls -ltra refs"
+	},
+	"devDependencies": {
+		"desi75-cli": "^0.1.2",
+		"desi75-uis": "^0.1.2",
+		"rimraf": "^6.1.3"
+	}
+}
