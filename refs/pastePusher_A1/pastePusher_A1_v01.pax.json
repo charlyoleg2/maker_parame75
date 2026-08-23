@@ -104,6 +104,16 @@
         "pType": 0
       },
       {
+        "name": "secondSpring",
+        "unit": "checkbox",
+        "init": 0,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [],
+        "pType": 1
+      },
+      {
         "name": "Guide",
         "unit": "section-separator",
         "init": 0,
@@ -175,6 +185,7 @@
       "H1d": "pastePusher_profile_side.svg",
       "T3": "pastePusher_face.svg",
       "E2": "pastePusher_profile_side.svg",
+      "secondSpring": "pastePusher_face.svg",
       "L12": "pastePusher_face.svg",
       "W2": "pastePusher_profile_side.svg",
       "H2d": "pastePusher_profile_side.svg",
@@ -198,6 +209,7 @@
     "H1d": 4.1,
     "T3": 2,
     "E2": 1,
+    "secondSpring": 0,
     "Guide": 0,
     "L12": 1,
     "W2": 6,
@@ -722,5 +734,5 @@
     ]
   },
   "subs": {},
-  "log": "pastePusher simTime: 0\nH1 10.00  H2 10.10 mm\nLtotal 64.60 mm\npastePusher drawn successfully!\n"
+  "log": "pastePusher simTime: 0\nH1 10.00  H2 10.10 mm\nLtotal 10.60 mm\npastePusher drawn successfully!\n"
 }
