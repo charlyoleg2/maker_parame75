@@ -5,7 +5,7 @@ import { exec } from "child_process";
 import { promisify } from 'util';
 
 const c_Parts = {
-	pastePusher_A1: 'pasterPusher_A1_v01',
+	pastePusher_A1: 'pastePusher_A1_v01',
 };
 
 const c_svgdxf = {
