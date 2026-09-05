@@ -1,0 +1,1165 @@
+{
+  "partName": "bookshelf",
+  "pDef": {
+    "partName": "bookshelf",
+    "params": [
+      {
+        "name": "L1",
+        "unit": "mm",
+        "init": 1200,
+        "min": 1,
+        "max": 4000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H1",
+        "unit": "mm",
+        "init": 100,
+        "min": 1,
+        "max": 4000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H2",
+        "unit": "mm",
+        "init": 340,
+        "min": 1,
+        "max": 4000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H3",
+        "unit": "mm",
+        "init": 150,
+        "min": 1,
+        "max": 4000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W1",
+        "unit": "mm",
+        "init": 250,
+        "min": 1,
+        "max": 4000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "mid",
+        "unit": "checkbox",
+        "init": 1,
+        "min": 0,
+        "max": 1,
+        "step": 1,
+        "dropdown": [],
+        "pType": 1
+      },
+      {
+        "name": "details",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "E1",
+        "unit": "mm",
+        "init": 20,
+        "min": 1,
+        "max": 400,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "E2",
+        "unit": "mm",
+        "init": 30,
+        "min": 1,
+        "max": 400,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W2",
+        "unit": "mm",
+        "init": 150,
+        "min": 1,
+        "max": 4000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H5",
+        "unit": "mm",
+        "init": 60,
+        "min": 0,
+        "max": 400,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W5",
+        "unit": "mm",
+        "init": 30,
+        "min": 0,
+        "max": 400,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "L1": "bookshelf_face.svg",
+      "H1": "bookshelf_face2.svg",
+      "H2": "bookshelf_side.svg",
+      "H3": "bookshelf_top2.svg",
+      "W1": "bookshelf_top2.svg",
+      "mid": "bookshelf_top2.svg",
+      "E1": "bookshelf_top.svg",
+      "E2": "bookshelf_top.svg",
+      "W2": "bookshelf_top.svg",
+      "H5": "bookshelf_top.svg",
+      "W5": "bookshelf_face.svg"
+    },
+    "sim": {
+      "tMax": 180,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "L1": 1200,
+    "H1": 100,
+    "H2": 340,
+    "H3": 150,
+    "W1": 250,
+    "mid": 1,
+    "details": 0,
+    "E1": 20,
+    "E2": 30,
+    "W2": 150,
+    "H5": 60,
+    "W5": 30
+  },
+  "figures": {
+    "faceFace": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 20,
+              "py": 60
+            },
+            {
+              "typ": 1,
+              "px": 1180,
+              "py": 60
+            },
+            {
+              "typ": 1,
+              "px": 1180,
+              "py": 630
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": 630
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": 60
+            }
+          ]
+        }
+      ]
+    ],
+    "faceSide": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 280,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 280,
+              "py": 630
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 630
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 60
+            },
+            {
+              "typ": 1,
+              "px": 30,
+              "py": 60
+            },
+            {
+              "typ": 1,
+              "px": 30,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 280,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "faceSideMid": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 280,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 280,
+              "py": 630
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": 630
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": 60
+            },
+            {
+              "typ": 1,
+              "px": 30,
+              "py": 60
+            },
+            {
+              "typ": 1,
+              "px": 30,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 280,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "faceTop": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 0,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 1200,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 1200,
+              "py": 280
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 280
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "facePlateau": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 20,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 590,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 590,
+              "py": 280
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": 280
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": 20
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 610,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 1180,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 1180,
+              "py": 280
+            },
+            {
+              "typ": 1,
+              "px": 610,
+              "py": 280
+            },
+            {
+              "typ": 1,
+              "px": 610,
+              "py": 20
+            }
+          ]
+        }
+      ]
+    ],
+    "faceBeamFace": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 50,
+              "py": 70
+            },
+            {
+              "typ": 1,
+              "px": 560,
+              "py": 70
+            },
+            {
+              "typ": 1,
+              "px": 560,
+              "py": 100
+            },
+            {
+              "typ": 1,
+              "px": 50,
+              "py": 100
+            },
+            {
+              "typ": 1,
+              "px": 50,
+              "py": 70
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 50,
+              "py": 430
+            },
+            {
+              "typ": 1,
+              "px": 560,
+              "py": 430
+            },
+            {
+              "typ": 1,
+              "px": 560,
+              "py": 460
+            },
+            {
+              "typ": 1,
+              "px": 50,
+              "py": 460
+            },
+            {
+              "typ": 1,
+              "px": 50,
+              "py": 430
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 50,
+              "py": 600
+            },
+            {
+              "typ": 1,
+              "px": 560,
+              "py": 600
+            },
+            {
+              "typ": 1,
+              "px": 560,
+              "py": 630
+            },
+            {
+              "typ": 1,
+              "px": 50,
+              "py": 630
+            },
+            {
+              "typ": 1,
+              "px": 50,
+              "py": 600
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 640,
+              "py": 70
+            },
+            {
+              "typ": 1,
+              "px": 1150,
+              "py": 70
+            },
+            {
+              "typ": 1,
+              "px": 1150,
+              "py": 100
+            },
+            {
+              "typ": 1,
+              "px": 640,
+              "py": 100
+            },
+            {
+              "typ": 1,
+              "px": 640,
+              "py": 70
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 640,
+              "py": 430
+            },
+            {
+              "typ": 1,
+              "px": 1150,
+              "py": 430
+            },
+            {
+              "typ": 1,
+              "px": 1150,
+              "py": 460
+            },
+            {
+              "typ": 1,
+              "px": 640,
+              "py": 460
+            },
+            {
+              "typ": 1,
+              "px": 640,
+              "py": 430
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 640,
+              "py": 600
+            },
+            {
+              "typ": 1,
+              "px": 1150,
+              "py": 600
+            },
+            {
+              "typ": 1,
+              "px": 1150,
+              "py": 630
+            },
+            {
+              "typ": 1,
+              "px": 640,
+              "py": 630
+            },
+            {
+              "typ": 1,
+              "px": 640,
+              "py": 600
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 20,
+              "py": 120
+            },
+            {
+              "typ": 1,
+              "px": 50,
+              "py": 120
+            },
+            {
+              "typ": 1,
+              "px": 50,
+              "py": 430
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": 430
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": 120
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 20,
+              "py": 480
+            },
+            {
+              "typ": 1,
+              "px": 50,
+              "py": 480
+            },
+            {
+              "typ": 1,
+              "px": 50,
+              "py": 600
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": 600
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": 480
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 1150,
+              "py": 120
+            },
+            {
+              "typ": 1,
+              "px": 1180,
+              "py": 120
+            },
+            {
+              "typ": 1,
+              "px": 1180,
+              "py": 430
+            },
+            {
+              "typ": 1,
+              "px": 1150,
+              "py": 430
+            },
+            {
+              "typ": 1,
+              "px": 1150,
+              "py": 120
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 1150,
+              "py": 480
+            },
+            {
+              "typ": 1,
+              "px": 1180,
+              "py": 480
+            },
+            {
+              "typ": 1,
+              "px": 1180,
+              "py": 600
+            },
+            {
+              "typ": 1,
+              "px": 1150,
+              "py": 600
+            },
+            {
+              "typ": 1,
+              "px": 1150,
+              "py": 480
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 560,
+              "py": 120
+            },
+            {
+              "typ": 1,
+              "px": 590,
+              "py": 120
+            },
+            {
+              "typ": 1,
+              "px": 590,
+              "py": 430
+            },
+            {
+              "typ": 1,
+              "px": 560,
+              "py": 430
+            },
+            {
+              "typ": 1,
+              "px": 560,
+              "py": 120
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 560,
+              "py": 480
+            },
+            {
+              "typ": 1,
+              "px": 590,
+              "py": 480
+            },
+            {
+              "typ": 1,
+              "px": 590,
+              "py": 600
+            },
+            {
+              "typ": 1,
+              "px": 560,
+              "py": 600
+            },
+            {
+              "typ": 1,
+              "px": 560,
+              "py": 480
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 610,
+              "py": 120
+            },
+            {
+              "typ": 1,
+              "px": 640,
+              "py": 120
+            },
+            {
+              "typ": 1,
+              "px": 640,
+              "py": 430
+            },
+            {
+              "typ": 1,
+              "px": 610,
+              "py": 430
+            },
+            {
+              "typ": 1,
+              "px": 610,
+              "py": 120
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 610,
+              "py": 480
+            },
+            {
+              "typ": 1,
+              "px": 640,
+              "py": 480
+            },
+            {
+              "typ": 1,
+              "px": 640,
+              "py": 600
+            },
+            {
+              "typ": 1,
+              "px": 610,
+              "py": 600
+            },
+            {
+              "typ": 1,
+              "px": 610,
+              "py": 480
+            }
+          ]
+        }
+      ]
+    ],
+    "faceBeamTop": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 20,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 50,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 50,
+              "py": 170
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": 170
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": 20
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 1150,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 1180,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 1180,
+              "py": 170
+            },
+            {
+              "typ": 1,
+              "px": 1150,
+              "py": 170
+            },
+            {
+              "typ": 1,
+              "px": 1150,
+              "py": 20
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 560,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 590,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 590,
+              "py": 170
+            },
+            {
+              "typ": 1,
+              "px": 560,
+              "py": 170
+            },
+            {
+              "typ": 1,
+              "px": 560,
+              "py": 20
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 610,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 640,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 640,
+              "py": 170
+            },
+            {
+              "typ": 1,
+              "px": 610,
+              "py": 170
+            },
+            {
+              "typ": 1,
+              "px": 610,
+              "py": 20
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_bookshelf_top",
+        "face": "bookshelf_faceTop",
+        "extrudeMethod": 0,
+        "length": 20,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          630
+        ]
+      },
+      {
+        "outName": "subpax_bookshelf_plateau1",
+        "face": "bookshelf_facePlateau",
+        "extrudeMethod": 0,
+        "length": 20,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          100
+        ]
+      },
+      {
+        "outName": "subpax_bookshelf_plateau2",
+        "face": "bookshelf_facePlateau",
+        "extrudeMethod": 0,
+        "length": 20,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          460
+        ]
+      },
+      {
+        "outName": "subpax_bookshelf_back",
+        "face": "bookshelf_faceFace",
+        "extrudeMethod": 0,
+        "length": 20,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          20,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_bookshelf_side0",
+        "face": "bookshelf_faceSide",
+        "extrudeMethod": 0,
+        "length": 20,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          1.5707963267948966
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_bookshelf_side1",
+        "face": "bookshelf_faceSide",
+        "extrudeMethod": 0,
+        "length": 20,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          1.5707963267948966
+        ],
+        "translate": [
+          1180,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_bookshelf_sideMid",
+        "face": "bookshelf_faceSideMid",
+        "extrudeMethod": 0,
+        "length": 20,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          1.5707963267948966
+        ],
+        "translate": [
+          590,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_bookshelf_beam1",
+        "face": "bookshelf_faceBeamFace",
+        "extrudeMethod": 0,
+        "length": 30,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          50,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_bookshelf_beam20",
+        "face": "bookshelf_faceBeamTop",
+        "extrudeMethod": 0,
+        "length": 30,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          70
+        ]
+      },
+      {
+        "outName": "subpax_bookshelf_beam21",
+        "face": "bookshelf_faceBeamTop",
+        "extrudeMethod": 0,
+        "length": 30,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          430
+        ]
+      },
+      {
+        "outName": "subpax_bookshelf_beam22",
+        "face": "bookshelf_faceBeamTop",
+        "extrudeMethod": 0,
+        "length": 30,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          600
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "pax_bookshelf",
+        "boolMethod": 2,
+        "inList": [
+          "subpax_bookshelf_top",
+          "subpax_bookshelf_plateau1",
+          "subpax_bookshelf_plateau2",
+          "subpax_bookshelf_back",
+          "subpax_bookshelf_side0",
+          "subpax_bookshelf_side1",
+          "subpax_bookshelf_sideMid",
+          "subpax_bookshelf_beam1",
+          "subpax_bookshelf_beam20",
+          "subpax_bookshelf_beam21",
+          "subpax_bookshelf_beam22"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "bookshelf simTime: 0\nHtotal 650.00  Wtotal 280.00 mm\nbookshelf drawn successfully!\n"
+}

@@ -1,0 +1,3 @@
+bookshelf simTime: 0
+Htotal 650.00  Wtotal 280.00 mm
+bookshelf drawn successfully!
