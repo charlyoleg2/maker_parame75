@@ -7,11 +7,13 @@ import { promisify } from 'util';
 const c_Parts = {
 	pastePusher_A1: 'pastePusher_A1_v01',
 	bookshelf_A1: 'bookshelf_A1_v01',
+	ushelf_A1: 'ushelf_A1_v01',
 };
 
 const c_svgdxf = {
 	pastePusher_A1: ['faceFace', 'faceMid', 'faceSide', 'faceSideB'],
 	bookshelf_A1: ['faceFace', 'faceSide', 'faceSideMid', 'faceTop', 'facePlateau', 'faceBeamFace', 'faceBeamTop'],
+	ushelf_A1: ['faceFace', 'faceSide', 'faceSideR', 'faceTop', 'faceBeamTop'],
 };
 
 function inferDesignName(instanceName) {
