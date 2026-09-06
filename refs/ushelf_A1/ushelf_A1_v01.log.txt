@@ -1,0 +1,11 @@
+ushelf simTime: 0
+Htotal 580.00  Wtotal 280.00 mm
+BOM 20.00 mm
+plate-back 660.00 x 360.00 mm  x1
+plateau 660.00 x 260.00 mm  x1
+plate-sideL 580.00 x 280.00 mm  x1
+plate-sideR 430.00 x 280.00 mm  x1
+BOM 30.00 x 30.00 mm
+beam-Y 150.00 mm  x2
+beam-X 600.00 mm  x1
+U-shelf drawn successfully!

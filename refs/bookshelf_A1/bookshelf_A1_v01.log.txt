@@ -1,3 +1,14 @@
 bookshelf simTime: 0
 Htotal 650.00  Wtotal 280.00 mm
+BOM 20.00 mm
+plate-top 1200.00 x 280.00 mm  x1
+plate-back 1160.00 x 570.00 mm  x1
+plateau 570.00 x 260.00 mm  x4
+plate-side 630.00 x 280.00 mm  x1
+plate-sideMid 630.00 x 260.00 mm  x1
+BOM 30.00 x 30.00 mm
+beam-Y 150.00 mm  x12
+beam-X 510.00 mm  x6
+beam-Z1 310.00 mm  x4
+beam-Z2 120.00 mm  x4
 bookshelf drawn successfully!

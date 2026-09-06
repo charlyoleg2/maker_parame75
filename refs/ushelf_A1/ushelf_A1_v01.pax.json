@@ -1,0 +1,515 @@
+{
+  "partName": "ushelf",
+  "pDef": {
+    "partName": "ushelf",
+    "params": [
+      {
+        "name": "L1",
+        "unit": "mm",
+        "init": 700,
+        "min": 1,
+        "max": 4000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H1",
+        "unit": "mm",
+        "init": 200,
+        "min": 1,
+        "max": 4000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H2",
+        "unit": "mm",
+        "init": 200,
+        "min": 1,
+        "max": 4000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H3",
+        "unit": "mm",
+        "init": 10,
+        "min": 1,
+        "max": 4000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H4",
+        "unit": "mm",
+        "init": 150,
+        "min": 1,
+        "max": 4000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W1",
+        "unit": "mm",
+        "init": 250,
+        "min": 1,
+        "max": 4000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "details",
+        "unit": "section-separator",
+        "init": 0,
+        "min": 0,
+        "max": 0,
+        "step": 0,
+        "dropdown": [],
+        "pType": 3
+      },
+      {
+        "name": "E1",
+        "unit": "mm",
+        "init": 20,
+        "min": 1,
+        "max": 400,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "E2",
+        "unit": "mm",
+        "init": 30,
+        "min": 1,
+        "max": 400,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W2",
+        "unit": "mm",
+        "init": 150,
+        "min": 1,
+        "max": 4000,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "H5",
+        "unit": "mm",
+        "init": 60,
+        "min": 0,
+        "max": 400,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      },
+      {
+        "name": "W5",
+        "unit": "mm",
+        "init": 30,
+        "min": 0,
+        "max": 400,
+        "step": 1,
+        "dropdown": [],
+        "pType": 0
+      }
+    ],
+    "paramSvg": {
+      "L1": "ushelf_face.svg",
+      "H1": "ushelf_face.svg",
+      "H2": "ushelf_side.svg",
+      "H3": "ushelf_top.svg",
+      "H4": "ushelf_top.svg",
+      "W1": "ushelf_top.svg",
+      "E1": "ushelf_top.svg",
+      "E2": "ushelf_top.svg",
+      "W2": "ushelf_top.svg",
+      "H5": "ushelf_top.svg",
+      "W5": "ushelf_face.svg"
+    },
+    "sim": {
+      "tMax": 180,
+      "tStep": 0.5,
+      "tUpdate": 500
+    }
+  },
+  "params": {
+    "L1": 700,
+    "H1": 200,
+    "H2": 200,
+    "H3": 10,
+    "H4": 150,
+    "W1": 250,
+    "details": 0,
+    "E1": 20,
+    "E2": 30,
+    "W2": 150,
+    "H5": 60,
+    "W5": 30
+  },
+  "figures": {
+    "faceFace": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 20,
+              "py": 60
+            },
+            {
+              "typ": 1,
+              "px": 680,
+              "py": 60
+            },
+            {
+              "typ": 1,
+              "px": 680,
+              "py": 420
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": 420
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": 60
+            }
+          ]
+        }
+      ]
+    ],
+    "faceSide": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 280,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 280,
+              "py": 580
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 580
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 60
+            },
+            {
+              "typ": 1,
+              "px": 30,
+              "py": 60
+            },
+            {
+              "typ": 1,
+              "px": 30,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 280,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "faceSideR": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 280,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 280,
+              "py": 430
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 430
+            },
+            {
+              "typ": 1,
+              "px": 0,
+              "py": 60
+            },
+            {
+              "typ": 1,
+              "px": 30,
+              "py": 60
+            },
+            {
+              "typ": 1,
+              "px": 30,
+              "py": 0
+            },
+            {
+              "typ": 1,
+              "px": 280,
+              "py": 0
+            }
+          ]
+        }
+      ]
+    ],
+    "faceTop": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 20,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 680,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 680,
+              "py": 280
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": 280
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": 20
+            }
+          ]
+        }
+      ]
+    ],
+    "faceBeamTop": [
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 20,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 50,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 50,
+              "py": 170
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": 170
+            },
+            {
+              "typ": 1,
+              "px": 20,
+              "py": 20
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 650,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 680,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 680,
+              "py": 170
+            },
+            {
+              "typ": 1,
+              "px": 650,
+              "py": 170
+            },
+            {
+              "typ": 1,
+              "px": 650,
+              "py": 20
+            }
+          ]
+        }
+      ],
+      [
+        {
+          "circle": false,
+          "seg": [
+            {
+              "typ": 0,
+              "px": 50,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 650,
+              "py": 20
+            },
+            {
+              "typ": 1,
+              "px": 650,
+              "py": 50
+            },
+            {
+              "typ": 1,
+              "px": 50,
+              "py": 50
+            },
+            {
+              "typ": 1,
+              "px": 50,
+              "py": 20
+            }
+          ]
+        }
+      ]
+    ]
+  },
+  "volume": {
+    "extrudes": [
+      {
+        "outName": "subpax_ushelf_plateau",
+        "face": "ushelf_faceTop",
+        "extrudeMethod": 0,
+        "length": 20,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          200
+        ]
+      },
+      {
+        "outName": "subpax_ushelf_back",
+        "face": "ushelf_faceFace",
+        "extrudeMethod": 0,
+        "length": 20,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          20,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_ushelf_sideL",
+        "face": "ushelf_faceSide",
+        "extrudeMethod": 0,
+        "length": 20,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          1.5707963267948966
+        ],
+        "translate": [
+          680,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_ushelf_sideR",
+        "face": "ushelf_faceSideR",
+        "extrudeMethod": 0,
+        "length": 20,
+        "rotate": [
+          1.5707963267948966,
+          0,
+          1.5707963267948966
+        ],
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "outName": "subpax_ushelf_beam",
+        "face": "ushelf_faceBeamTop",
+        "extrudeMethod": 0,
+        "length": 30,
+        "rotate": [
+          0,
+          0,
+          0
+        ],
+        "translate": [
+          0,
+          0,
+          170
+        ]
+      }
+    ],
+    "volumes": [
+      {
+        "outName": "pax_ushelf",
+        "boolMethod": 2,
+        "inList": [
+          "subpax_ushelf_plateau",
+          "subpax_ushelf_back",
+          "subpax_ushelf_sideL",
+          "subpax_ushelf_sideR",
+          "subpax_ushelf_beam"
+        ]
+      }
+    ]
+  },
+  "subs": {},
+  "log": "ushelf simTime: 0\nHtotal 580.00  Wtotal 280.00 mm\nBOM 20.00 mm\nplate-back 660.00 x 360.00 mm  x1\nplateau 660.00 x 260.00 mm  x1\nplate-sideL 580.00 x 280.00 mm  x1\nplate-sideR 430.00 x 280.00 mm  x1\nBOM 30.00 x 30.00 mm\nbeam-Y 150.00 mm  x2\nbeam-X 600.00 mm  x1\nU-shelf drawn successfully!\n"
+}

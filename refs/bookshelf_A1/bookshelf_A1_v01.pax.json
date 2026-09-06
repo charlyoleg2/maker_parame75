@@ -1161,5 +1161,5 @@
     ]
   },
   "subs": {},
-  "log": "bookshelf simTime: 0\nHtotal 650.00  Wtotal 280.00 mm\nbookshelf drawn successfully!\n"
+  "log": "bookshelf simTime: 0\nHtotal 650.00  Wtotal 280.00 mm\nBOM 20.00 mm\nplate-top 1200.00 x 280.00 mm  x1\nplate-back 1160.00 x 570.00 mm  x1\nplateau 570.00 x 260.00 mm  x4\nplate-side 630.00 x 280.00 mm  x1\nplate-sideMid 630.00 x 260.00 mm  x1\nBOM 30.00 x 30.00 mm\nbeam-Y 150.00 mm  x12\nbeam-X 510.00 mm  x6\nbeam-Z1 310.00 mm  x4\nbeam-Z2 120.00 mm  x4\nbookshelf drawn successfully!\n"
 }
